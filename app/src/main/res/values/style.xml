@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AlertDialogTheme" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="android:textColor">@color/purple_500</item>
+    </style>
+
+    <style name="onBoarding_button">
+        <item name="borderWidth">@dimen/margin_4dp</item>
+        <item name="backgroundTint">@color/purple_500</item>
+        <item name="android:layout_marginTop">@dimen/margin_80dp</item>
+        <item name="android:layout_marginBottom">@dimen/margin_10</item>
+        <item name="cornerRadius">@dimen/margin_10</item>
+    </style>
+
+    <style name="register_button">
+        <item name="borderWidth">@dimen/margin_4dp</item>
+        <item name="backgroundTint">@color/purple_500</item>
+        <item name="android:layout_marginBottom">@dimen/margin_10</item>
+        <item name="cornerRadius">@dimen/margin_10</item>
+    </style>
+
+    <dimen name="margin_4dp">4dp</dimen>
+    <dimen name="margin_80dp">80dp</dimen>
+</resources>

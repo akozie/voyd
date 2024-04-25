@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">VOYD</string>
+    <string name="onboarding_txt1">Paying for content is effortless and easy!</string>
+    <string name="onboarding_txt2">Offer more value  by bundling content</string>
+    <string name="skip">Skip</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="loading">Loading</string>
+    <string name="cancel">Cancel</string>
+    <string name="welcome_back">"Welcome back "</string>
+    <string name="first_name">First name</string>
+    <string name="let_s_get_started">Let\'s get started</string>
+    <string name="by_clicking_on_sign_up_you_agree_to_our_terms_conditions_and_privacy_policy"><![CDATA[By clicking on Sign up, you agree to our terms & conditions and privacy policy.]]></string>
+    <string name="sign_up">Sign Up</string>
+    <string name="last_name">Last name</string>
+    <string name="email_address">Email address</string>
+    <string name="all_please_enter_first_name">Please enter your first name</string>
+    <string name="all_please_enter_last_name">Please enter your last name</string>
+    <string name="all_please_enter_password">Please enter your password</string>
+    <string name="confirm_password">Please confirm your password</string>
+    <string name="all_please_enter_email_address">Please enter your email</string>
+    <string name="all_password_mismatch">Password mismatch</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login">Login</string>
+    <string name="confirm_your_password">Confirm your password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="please_enter_your_code">Please enter your code</string>
+    <string name="version_1_0">Version 1.0</string>
+
+</resources>
