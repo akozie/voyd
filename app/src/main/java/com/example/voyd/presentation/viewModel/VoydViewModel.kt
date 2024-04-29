@@ -56,12 +56,21 @@ class VoydViewModel @Inject constructor(
     fun login(email: String, password: String) {
         _loginResponse.postValue( Resource.Loading)
         viewModelScope.launch(ioDispatcher) {
-            val loginRequestDTO = LoginRequestDTO(
-                email = email,
-                password = password,
-                role = "member"
-            )
-            _loginResponse.postValue(repository.login(LOGIN_X_PROJECT_URL, loginRequestDTO))
+            if (email.contains("admin")){
+                val loginRequestDTO = LoginRequestDTO(
+                    email = email,
+                    password = password,
+                    role = "admin"
+                )
+                _loginResponse.postValue(repository.login(LOGIN_X_PROJECT_URL, loginRequestDTO))
+            }else {
+                val loginRequestDTO = LoginRequestDTO(
+                    email = email,
+                    password = password,
+                    role = "member"
+                )
+                _loginResponse.postValue(repository.login(LOGIN_X_PROJECT_URL, loginRequestDTO))
+            }
         }
     }
 

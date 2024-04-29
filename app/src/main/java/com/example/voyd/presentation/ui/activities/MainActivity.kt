@@ -20,9 +20,11 @@ import com.example.voyd.utils.AppConstants
 import com.example.voyd.utils.AppConstants.alertDialog
 import com.example.voyd.utils.AppConstants.showToast
 import com.google.android.material.navigation.NavigationView
+import dagger.hilt.android.AndroidEntryPoint
 import org.json.JSONException
 import org.json.JSONObject
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private lateinit var drawerLayout: DrawerLayout
@@ -43,6 +45,10 @@ class MainActivity : AppCompatActivity() {
 
         drawerLayout = binding.drawerLayout
         navView = binding.navView
+
+        binding.appBarDashboard.contentDashboard.update.setOnClickListener {
+            updateProfile()
+        }
 
     }
 

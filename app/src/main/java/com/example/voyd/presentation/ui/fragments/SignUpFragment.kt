@@ -49,7 +49,6 @@ class SignUpFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         dialog = alertDialog(requireContext())
         privacySpannableText()
-
         binding.login.setOnClickListener {
             findNavController().navigate(R.id.logInFragment)
         }
@@ -232,5 +231,7 @@ class SignUpFragment : Fragment() {
         // Set the text to the TextView
         binding.login.text = spannableString
     }
+
+
 
 }

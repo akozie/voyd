@@ -29,7 +29,7 @@
         app:layout_constraintTop_toBottomOf="@+id/first_name" />
 
     <Button
-        android:id="@+id/login"
+        android:id="@+id/update"
         style="@style/onBoarding_button"
         android:layout_width="0dp"
         android:layout_height="72dp"

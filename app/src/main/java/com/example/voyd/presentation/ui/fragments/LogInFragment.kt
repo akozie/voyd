@@ -50,6 +50,7 @@ class LogInFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         dialog = alertDialog(requireContext())
         privacySpannableText()
+        main()
         binding.login.setOnClickListener {
             if (binding.email.text.toString().trim().isEmpty()) {
                 showToast("Email cannot be empty")
@@ -146,5 +147,17 @@ class LogInFragment : Fragment() {
         binding.register.text = spannableString
     }
 
+    fun main() {
+        val random = listOf(1, 2, 3, 4, 7, 8, 10, 11, 12, 13)
+        var result = arrayListOf<Int>()
+
+        for(i in random.indices){
+            
+            Log.d("OKKKK", random[i].toString())
+
+
+        }
+
+    }
 
 }
